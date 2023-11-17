@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+	<test name="myTest">
+		
+		<groups>
+			<run>
+				<include name = "Qualification"/>
+				<include name = "League Stage"/>
+					<exclude name="Qualification"/>
+			</run>
+		</groups>
+		
+		
+		<classes>
+			<class name="testtng.Grouping"/>
+			</classes>
+		
+		</test>
+	
+	</suite>
